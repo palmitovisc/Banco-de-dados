@@ -1,0 +1,1 @@
+SELECT order_date,customer_id FROM orders  ORDER BY order_date ASC;

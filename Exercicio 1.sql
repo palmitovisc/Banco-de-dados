@@ -1,0 +1,1 @@
+SELECT name, amount FROM customers c INNER JOIN orders o on (c.id = o.customer_id);

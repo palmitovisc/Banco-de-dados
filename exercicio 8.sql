@@ -1,0 +1,1 @@
+SELECT c.name, count(o.id) as qnt_pedidos FROM customers c INNER JOIN orders o on (c.id = o.customer_id) GROUP BY c.name;
